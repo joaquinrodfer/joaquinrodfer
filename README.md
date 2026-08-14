@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=350&color=gradient&text=Joaquín%20Rodríguez%20Ferrer&reversal=false&desc=Data%20Science%20and%20AI%20|%20Python%20·%20SQL%20·%20Power%20BI%20·%20ETL&descAlignY=60&fontAlignY=40" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=23&text=Joaquín%20Rodríguez%20Ferrer&reversal=false&desc=Data%20Science%20and%20AI%20|%20Python%20·%20SQL%20·%20Power%20BI%20·%20ETL&descAlignY=60&fontAlignY=40" width="100%"/>
 
 <a href="https://joaquinrodfer.es"><img src="https://img.shields.io/badge/Portfolio-joaquinrodfer.es-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/joaquinrodriguezferrer"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
