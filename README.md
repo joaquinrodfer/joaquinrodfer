@@ -130,6 +130,6 @@ const joaquin = {
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=23&reversal=false&desc=Thanks%20for%20checking!&descAlignY=60&fontAlignY=40&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=23&reversal=false&desc=Thanks%20for%20checking!&descAlignY=77&fontAlignY=0&section=footer" width="100%"/>
 
 </div>
