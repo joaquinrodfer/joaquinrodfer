@@ -82,18 +82,14 @@ const joaquin = {
 </picture>
 </a>
 
-<a href="https://github.com/joaquinrodfer/Wordle-DSDM-UJA">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/pin-wordle-dsdm-uja-dark.svg"/>
-  <img src="./profile/pin-wordle-dsdm-uja-light.svg"/>
-</picture>
-</a>
-
 </div>
 
 > 💡 **MyDamnManagement** — self-hosted Notion-like notes + database views, CRM and task manager, all built on a single generic pages/database/view engine. No third-party dependencies.
+
 > **Portfolio** — personal site built with Next.js + Tailwind CSS v4, deployed on Vercel.
+
 > **vigilancia-maritima-ais** — data analysis of vessels going dark (AIS transponder shutdowns).
+
 > **Alquiler-Vivienda-Espana** — study of rental prices vs. minimum wage (SMI) in the province of Jaén.
 
 <br/>
@@ -102,10 +98,6 @@ const joaquin = {
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg"/>
-  <img src="./profile/stats-light.svg" height="165"/>
-</picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg"/>
   <img src="./profile/top-langs-light.svg" height="165"/>
