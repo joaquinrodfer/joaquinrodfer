@@ -1,0 +1,139 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # Runs once daily at 03:00 UTC
+  workflow_dispatch: # allows manual runs from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      # --- Stats card (light + dark) ---
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=joaquinrodfer&show_icons=true&theme=default&hide_border=true&count_private=true
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=joaquinrodfer&show_icons=true&theme=tokyonight&hide_border=true&count_private=true
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- Top languages card (light + dark) ---
+      - name: Generate top-langs card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=joaquinrodfer&layout=compact&theme=default&hide_border=true
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top-langs card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=joaquinrodfer&layout=compact&theme=tokyonight&hide_border=true
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- Pinned repo cards (light + dark) ---
+      - name: Generate pin card - MyDamnManagement (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=MyDamnManagement&theme=default&hide_border=true
+          path: profile/pin-mydamnmanagement-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card - MyDamnManagement (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=MyDamnManagement&theme=tokyonight&hide_border=true
+          path: profile/pin-mydamnmanagement-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card - Portfolio (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=Portfolio&theme=default&hide_border=true
+          path: profile/pin-portfolio-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card - Portfolio (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=Portfolio&theme=tokyonight&hide_border=true
+          path: profile/pin-portfolio-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card - vigilancia-maritima-ais (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=vigilancia-maritima-ais&theme=default&hide_border=true
+          path: profile/pin-vigilancia-maritima-ais-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card - vigilancia-maritima-ais (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=vigilancia-maritima-ais&theme=tokyonight&hide_border=true
+          path: profile/pin-vigilancia-maritima-ais-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card - Alquiler-Vivienda-Espana (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=Alquiler-Vivienda-Espana&theme=default&hide_border=true
+          path: profile/pin-alquiler-vivienda-espana-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card - Alquiler-Vivienda-Espana (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=Alquiler-Vivienda-Espana&theme=tokyonight&hide_border=true
+          path: profile/pin-alquiler-vivienda-espana-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card - Wordle-DSDM-UJA (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=Wordle-DSDM-UJA&theme=default&hide_border=true
+          path: profile/pin-wordle-dsdm-uja-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card - Wordle-DSDM-UJA (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=joaquinrodfer&repo=Wordle-DSDM-UJA&theme=tokyonight&hide_border=true
+          path: profile/pin-wordle-dsdm-uja-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push

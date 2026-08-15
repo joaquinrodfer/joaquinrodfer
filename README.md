@@ -58,34 +58,34 @@ const joaquin = {
 
 <a href="https://github.com/joaquinrodfer/MyDamnManagement">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=MyDamnManagement&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=MyDamnManagement&theme=default&hide_border=true"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/pin-mydamnmanagement-dark.svg"/>
+  <img src="./profile/pin-mydamnmanagement-light.svg"/>
 </picture>
 </a>
 <a href="https://github.com/joaquinrodfer/Portfolio">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=Portfolio&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=Portfolio&theme=default&hide_border=true"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/pin-portfolio-dark.svg"/>
+  <img src="./profile/pin-portfolio-light.svg"/>
 </picture>
 </a>
 
 <a href="https://github.com/joaquinrodfer/vigilancia-maritima-ais">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=vigilancia-maritima-ais&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=vigilancia-maritima-ais&theme=default&hide_border=true"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/pin-vigilancia-maritima-ais-dark.svg"/>
+  <img src="./profile/pin-vigilancia-maritima-ais-light.svg"/>
 </picture>
 </a>
 <a href="https://github.com/joaquinrodfer/Alquiler-Vivienda-Espana">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=Alquiler-Vivienda-Espana&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=Alquiler-Vivienda-Espana&theme=default&hide_border=true"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/pin-alquiler-vivienda-espana-dark.svg"/>
+  <img src="./profile/pin-alquiler-vivienda-espana-light.svg"/>
 </picture>
 </a>
 
 <a href="https://github.com/joaquinrodfer/Wordle-DSDM-UJA">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=Wordle-DSDM-UJA&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=joaquinrodfer&repo=Wordle-DSDM-UJA&theme=default&hide_border=true"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/pin-wordle-dsdm-uja-dark.svg"/>
+  <img src="./profile/pin-wordle-dsdm-uja-light.svg"/>
 </picture>
 </a>
 
@@ -103,12 +103,12 @@ const joaquin = {
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=joaquinrodfer&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=joaquinrodfer&show_icons=true&theme=default&hide_border=true&count_private=true" height="165"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg"/>
+  <img src="./profile/stats-light.svg" height="165"/>
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=joaquinrodfer&layout=compact&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaquinrodfer&layout=compact&theme=default&hide_border=true" height="165"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg"/>
+  <img src="./profile/top-langs-light.svg" height="165"/>
 </picture>
 
 <picture>
