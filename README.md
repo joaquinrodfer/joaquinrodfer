@@ -6,7 +6,7 @@
 <a href="https://www.linkedin.com/in/joaquinrodriguezferrer"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:contact@joaquinrodfer.es"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=500&pause=1000&color=4B6448&center=true&vCenter=true&width=435&lines=Turning+messy+data+into+decisions;Python+%C2%B7+SQL+%C2%B7+Power+BI;Data+Science+%26+AI" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=500&pause=1000&color=71B280&center=true&vCenter=true&width=435&lines=Turning+messy+data+into+decisions;Python+%C2%B7+SQL+%C2%B7+Power+BI;Data+Science+%26+AI" alt="Typing SVG" /></a>
 
 </div>
 
