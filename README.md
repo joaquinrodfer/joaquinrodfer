@@ -120,6 +120,8 @@ const joaquin = {
 <a href="https://www.linkedin.com/in/joaquinrodriguezferrer"><img src="https://img.shields.io/badge/LinkedIn-joaquinrodriguezferrer-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:contact@joaquinrodfer.es"><img src="https://img.shields.io/badge/Email-contact%40joaquinrodfer.es-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
+<p>Email (for copying): contact@joaquinrodfer.es</p>
+
 <br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=23&reversal=false&desc=Thanks%20for%20checking!&descAlignY=77&fontAlignY=0&section=footer" width="100%"/>
